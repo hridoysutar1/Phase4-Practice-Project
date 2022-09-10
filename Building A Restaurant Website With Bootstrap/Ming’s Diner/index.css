@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mission{
+    text-align: center;
+    padding: 2% 5%;
+    background-color: rgb(120, 66, 66);
+}
+
+
+#menu{
+    text-align: center;
+    padding: 2% 5%;
+    background-color: #f2b7b7;
+    opacity: .9;
+
+
+}
+
+
+
+#review{
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 5% 10%;
+    
+}
+
+#contact {
+    text-align: center;
+    padding: 2% 5%;
+    background-color: #756d6d;
+  }
