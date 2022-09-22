@@ -1,0 +1,38 @@
+
+#service{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background-color: darkgrey;
+  
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: justify;
+    background:linear-gradient(to top,rgb(248, 184, 184) 50%,rgb(187, 213, 214) 50%);
+   background-size: 100% 200%;
+   
+    transition: all .8s;
+  }
+  .box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow:  0 0 2px rgb(99, 39, 39);
+  }
